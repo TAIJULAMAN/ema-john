@@ -1,0 +1,24 @@
+.shop-header{
+    text-align: center;
+    color: cornflowerblue;
+}
+.shop-container{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+.products-container{
+display: grid;
+grid-template-columns: repeat(3,1fr);
+gap: 30px;
+border: 2px solid lightcoral;
+/* margin-top: 30px; */
+}
+.cart-container{
+    background-color: rgb(228, 210, 13);
+    border: 1px solid red;
+    text-align: center;
+    border-radius: 10px;
+}
+.cart-container:hover{
+    background-color: lightgreen;
+}
